@@ -11,6 +11,7 @@ fn visit_dirs(dir: &std::path::Path) -> std::io::Result<()> {
             }
         }
     }
+    std::fs::File::create("src/site.rs")?;
     Ok(())
 }
 
