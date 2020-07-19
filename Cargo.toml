@@ -1,0 +1,17 @@
+[package]
+name = "andrewjohnson4_area51"
+version = "0.0.0"
+authors = ["Andrew <andrew@subarctic.org>"]
+license = "MIT"
+description = "Test Site for Ideas"
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/andrew-johnson-4/area51"
+
+[dependencies]
+lazy_static = "1.4"
+once_cell = "1.3"
+
+[[bin]]
+name = "mutable_global"
+path = "src/bin_mutable_global.rs"
