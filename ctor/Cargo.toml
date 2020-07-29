@@ -1,0 +1,8 @@
+[package]
+name = "area51_ctor"
+version = "0.0.0"
+authors = ["Andrew <andrew@subarctic.org>"]
+edition = "2018"
+
+[dependencies]
+ctor = "0.1"
