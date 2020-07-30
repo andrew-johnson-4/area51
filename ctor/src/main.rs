@@ -11,7 +11,7 @@ fn foo() {
 fn main() {
    #[ctor]
    fn f() {}
-   let _: (&str, fn()) = ("a", ||{});
+   let _: (&str, fn() -> String) = ("a", ||{ "".to_string() });
    println!("lib {}", area51_ctor::INITED.load(Ordering::SeqCst));
    println!("main {}", INITED.load(Ordering::SeqCst));
 }
