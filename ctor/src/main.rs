@@ -9,6 +9,8 @@ fn foo() {
 }
 
 fn main() {
+   #[ctor]
+   fn f() {}
    println!("lib {}", area51_ctor::INITED.load(Ordering::SeqCst));
    println!("main {}", INITED.load(Ordering::SeqCst));
 }
