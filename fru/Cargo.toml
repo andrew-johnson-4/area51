@@ -1,0 +1,6 @@
+[package]
+name = "area51_fru"
+version = "0.0.0"
+authors = ["Andrew <andrew@subarctic.org>"]
+edition = "2018"
+
