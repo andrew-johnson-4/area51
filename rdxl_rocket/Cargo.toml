@@ -1,0 +1,9 @@
+[package]
+name = "area51_rdxl_rocket"
+version = "0.0.0"
+authors = ["Andrew <andrew@subarctic.org>"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.5"
+rdxl = "0.5"
