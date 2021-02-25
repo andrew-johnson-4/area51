@@ -15,3 +15,7 @@ once_cell = "1.3"
 [[bin]]
 name = "mutable_global"
 path = "src/bin_mutable_global.rs"
+
+[[bin]]
+name = "free_energy"
+path = "src/free_energy.rs"
